@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+logs/
+*.log
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# LangChain / ChromaDB
+chroma_db/
+vectorstore/
+db/
+
+# FAISS Indexes
+*.faiss
+*.pkl
+
+# Uploaded Files
+data/
+uploads/
+
+# Temporary Files
+temp/
+tmp/
+
+# API Keys
+config.py
+secrets.json
+credentials.json
+
+# Ollama
+ollama.log
+
+# Git
+*.orig
+
+# Model Files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated Files
+generated/
+output/
+results/
